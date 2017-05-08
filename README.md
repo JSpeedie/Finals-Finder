@@ -24,7 +24,9 @@ For this page to work properly, the database is expected to contain 2 tables:
 +------+-------------+----------+----------+----------+-------------+
 ```
 
-The tables used for the screenshots are provided in the wiki. *In progress...*
+The database (used in the screenshots, containing an example `courses` and
+an example `time`) is provided in the
+[wiki](https://github.com/JSpeedie/Finals-Finder/wiki).
 
 
 ## Screenshots
@@ -50,4 +52,4 @@ informing them of the error. Upon a successful search, the dropdown menu
 will be populated with all the courses in the database that match the search.
 When the user selects a course from the drop down by clicking on it, the info
 about the final exam for that course (found in the database) is added to the
-page. The user can continue this until satisfied.
+page. The user can continue adding finals until satisfied.
