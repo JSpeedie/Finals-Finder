@@ -31,15 +31,15 @@ The tables used for the screenshots are provided in the wiki. *In progress...*
 
 What the page looks like when you first open it:
 
-[!First Screenshot](https://github.com/JSpeedie/Finals-Finder/wiki/images/Page1.png)
+![First Screenshot](https://github.com/JSpeedie/Finals-Finder/wiki/images/Page1.png)
 
 How it looks after searching for "csc" and clicking the drop down menu:
 
-[!Second Screenshot](https://github.com/JSpeedie/Finals-Finder/wiki/images/Page2.png)
+![Second Screenshot](https://github.com/JSpeedie/Finals-Finder/wiki/images/Page2.png)
 
 The page after adding a couple finals:
 
-[!Third Screenshot](https://github.com/JSpeedie/Finals-Finder/wiki/images/Page3.png)
+![Third Screenshot](https://github.com/JSpeedie/Finals-Finder/wiki/images/Page3.png)
 
 
 ## Overview
