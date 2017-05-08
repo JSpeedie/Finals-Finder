@@ -1,0 +1,39 @@
+	<body>
+		<div id="frame">
+			<div id="inner_frame">
+				<header>  <!-- new HTML5 page-section structure element -->
+				<h2 id="Title">UTSC Winter 2017 Final Exam Timetable</h2></header>
+
+				<div id="main">
+					<table id="final_table">
+						<tr>
+							<th class="final_table_header">Course</th>
+							<th class="final_table_header">Section</th>
+							<th class="final_table_header">Instructor</th>
+							<th class="final_table_header">Date</th>
+							<th class="final_table_header">Start</th>
+							<th class="final_table_header">End</th>
+						</tr>
+					</table>
+
+					<div id="search_exams">
+						<form id="form1" method="get" action="search.php">
+							<fieldset id="search_inputs">
+								<legend id="search_title" align="center">Search Exams</legend>
+									<div id="test">
+										<input id="text_field" type="text" name="course" value="">
+										<input id="search_button" type="submit" value="Search">
+										<select id="select_course">
+											<option value="Select a Course">Select a Course</option>
+										</select>
+									</div>
+							</fieldset>
+						</form>
+					</div>
+					<img id="utsc_logo"
+					src="https://cmslab.utsc.utoronto.ca/courses/cscb20w17/speedie1/utsc.png">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

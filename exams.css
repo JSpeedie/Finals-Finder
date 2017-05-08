@@ -1,0 +1,113 @@
+/*
+ * In this file, I have set all the styling needed for courses.php. This
+ * includes borders, colours, text alignments, padding, centering objects, etc.
+ * There is no styling done in any other file. I have done my best to organize
+ * this file in roughly the same order as the declaration tag for whatever it
+ * styles.
+ */
+
+html {
+	margin: 0px;
+	padding: 0.25em 2.5em 0.25em 2.5em;
+	background-color: lightgray;
+}
+
+#frame {
+	padding: 2.5em;
+	/* This gives us the "blue border" */
+	background-color: darkblue;
+}
+
+#inner_frame {
+	padding: 30px 60px 30px 60px;
+	background-color: white;
+}
+
+h2#Title {
+	color: darkblue;
+	margin-bottom: 60px;
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+}
+
+table {
+	margin-bottom: 30px;
+	/* Gets rid of double borders on that you see in regular html tables */
+	border-collapse: collapse;
+	/* No top border necessary */
+	border-left: 0.1em solid lightgray;
+	border-right: 0.1em solid lightgray;
+	border-bottom: 0.1em solid lightgray;
+	width: 100%;
+}
+
+th.final_table_header {
+	background-color: lightgray;
+	font-color: darkblue;
+}
+
+td {
+	text-align: center;
+}
+
+/* To achieve zebra striping */
+.odd {
+	background: white;
+}
+
+.even {
+	background: #f2f2f2;
+}
+
+div#search_exams {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
+
+/* Inputs used to search are centered within their div */
+fieldset#search_inputs {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+div#test {
+	padding-top: 0.75em;
+	padding-right: 10%;
+	padding-bottom: 0.75em;
+	padding-left: 10%;
+}
+
+
+legend#search_title {
+	/* This is what gets the "Search Exams" to be inside the border */
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background: white;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+input#text_field {
+	width: 35%;
+}
+
+select#search_button {
+	width: 20%;
+}
+
+select#select_course {
+	width: 40%;
+}
+
+img#utsc_logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 10%;
+	width: 10%;
+}
