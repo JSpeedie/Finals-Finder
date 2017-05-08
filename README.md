@@ -1,4 +1,4 @@
-# Requirements
+## Requirements
 
 This web page expects a file `config.php` that specifies the MySql server
 address, username, password, and database name in order to work.
@@ -27,12 +27,22 @@ For this page to work properly, the database is expected to contain 2 tables:
 The tables used for the screenshots are provided in the wiki. *In progress...*
 
 
-# Screenshots
+## Screenshots
 
-*In progress...*
+What the page looks like when you first open it:
+
+[!First Screenshot](https://github.com/JSpeedie/Finals-Finder/wiki/images/Page1.png)
+
+How it looks after searching for "csc" and clicking the drop down menu:
+
+[!Second Screenshot](https://github.com/JSpeedie/Finals-Finder/wiki/images/Page2.png)
+
+The page after adding a couple finals:
+
+[!Third Screenshot](https://github.com/JSpeedie/Finals-Finder/wiki/images/Page3.png)
 
 
-# Overview
+## Overview
 
 When courses.php is loaded, the user is expected to enter fragments of a
 (or a full) course name. If one is not found, the user will receive a dialog
